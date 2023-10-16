@@ -1,0 +1,2 @@
+web: ruby bin\rails server -p 3000 -e development
+css: ruby bin\rails tailwindcss:watch
