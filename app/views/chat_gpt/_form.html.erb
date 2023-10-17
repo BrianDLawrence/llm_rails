@@ -1,0 +1,10 @@
+<%= form_tag(send_message_path, method: "post", data: { turbo: "false" }) do %>
+  <div class="field">
+    <label for="message">Ask ChatGPT:</label>
+    <textarea name="message" id="message" rows="5" cols="30"></textarea>
+  </div>
+  
+  <div class="field">
+    <button class="btn-primary" type="submit">Send Message</button>
+  </div>
+<% end %>
